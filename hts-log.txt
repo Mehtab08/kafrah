@@ -1,0 +1,32 @@
+HTTrack3.49-2+htsswf+htsjava launched on Sun, 18 May 2025 10:39:48 at https://miller.bslthemes.com/ashley-demo/home-1.html +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://miller.bslthemes.com/ashley-demo/home-1.html -O1 "F:\kafrah\kafrah" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+10:40:26	Error: 	"Not Found" (404) at link https://miller.bslthemes.com/ashley-demo/fonts/webfonts/fa-brands-400.eot (from https://miller.bslthemes.com/ashley-demo/css/plugins/font-awesome.min.css)
+10:40:26	Error: 	"Not Found" (404) at link https://miller.bslthemes.com/ashley-demo/fonts/webfonts/fa-brands-400.eot? (from https://miller.bslthemes.com/ashley-demo/css/plugins/font-awesome.min.css)
+10:40:26	Error: 	"Not Found" (404) at link https://miller.bslthemes.com/ashley-demo/fonts/webfonts/fa-brands-400.woff2 (from https://miller.bslthemes.com/ashley-demo/css/plugins/font-awesome.min.css)
+10:40:26	Error: 	"Not Found" (404) at link https://miller.bslthemes.com/ashley-demo/fonts/webfonts/fa-brands-400.woff (from https://miller.bslthemes.com/ashley-demo/css/plugins/font-awesome.min.css)
+10:40:26	Error: 	"Not Found" (404) at link https://miller.bslthemes.com/ashley-demo/fonts/webfonts/fa-brands-400.ttf (from https://miller.bslthemes.com/ashley-demo/css/plugins/font-awesome.min.css)
+10:40:26	Error: 	"Not Found" (404) at link https://miller.bslthemes.com/ashley-demo/fonts/webfonts/fa-brands-400.svg (from https://miller.bslthemes.com/ashley-demo/css/plugins/font-awesome.min.css)
+10:40:26	Error: 	"Not Found" (404) at link https://miller.bslthemes.com/ashley-demo/fonts/webfonts/fa-regular-400.eot (from https://miller.bslthemes.com/ashley-demo/css/plugins/font-awesome.min.css)
+10:40:26	Error: 	"Not Found" (404) at link https://miller.bslthemes.com/ashley-demo/fonts/webfonts/fa-regular-400.eot? (from https://miller.bslthemes.com/ashley-demo/css/plugins/font-awesome.min.css)
+10:40:26	Error: 	"Not Found" (404) at link https://miller.bslthemes.com/ashley-demo/fonts/webfonts/fa-regular-400.woff2 (from https://miller.bslthemes.com/ashley-demo/css/plugins/font-awesome.min.css)
+10:40:26	Error: 	"Not Found" (404) at link https://miller.bslthemes.com/ashley-demo/fonts/webfonts/fa-regular-400.woff (from https://miller.bslthemes.com/ashley-demo/css/plugins/font-awesome.min.css)
+10:40:26	Error: 	"Not Found" (404) at link https://miller.bslthemes.com/ashley-demo/fonts/webfonts/fa-regular-400.ttf (from https://miller.bslthemes.com/ashley-demo/css/plugins/font-awesome.min.css)
+10:40:26	Error: 	"Not Found" (404) at link https://miller.bslthemes.com/ashley-demo/fonts/webfonts/fa-regular-400.svg (from https://miller.bslthemes.com/ashley-demo/css/plugins/font-awesome.min.css)
+10:40:26	Error: 	"Not Found" (404) at link https://miller.bslthemes.com/ashley-demo/fonts/webfonts/fa-solid-900.eot (from https://miller.bslthemes.com/ashley-demo/css/plugins/font-awesome.min.css)
+10:40:26	Error: 	"Not Found" (404) at link https://miller.bslthemes.com/ashley-demo/fonts/webfonts/fa-solid-900.eot? (from https://miller.bslthemes.com/ashley-demo/css/plugins/font-awesome.min.css)
+10:40:26	Error: 	"Not Found" (404) at link https://miller.bslthemes.com/ashley-demo/fonts/webfonts/fa-solid-900.woff2 (from https://miller.bslthemes.com/ashley-demo/css/plugins/font-awesome.min.css)
+10:40:26	Error: 	"Not Found" (404) at link https://miller.bslthemes.com/ashley-demo/fonts/webfonts/fa-solid-900.woff (from https://miller.bslthemes.com/ashley-demo/css/plugins/font-awesome.min.css)
+10:40:26	Error: 	"Not Found" (404) at link https://miller.bslthemes.com/ashley-demo/fonts/webfonts/fa-solid-900.ttf (from https://miller.bslthemes.com/ashley-demo/css/plugins/font-awesome.min.css)
+10:40:26	Error: 	"Not Found" (404) at link https://miller.bslthemes.com/ashley-demo/fonts/webfonts/fa-solid-900.svg (from https://miller.bslthemes.com/ashley-demo/css/plugins/font-awesome.min.css)
+10:40:26	Warning: 	Retry after error -4 (No data (connection closed)) at link https://miller.bslthemes.com/ashley-demo/img/faces/customers/1.jpg (from https://miller.bslthemes.com/ashley-demo/css/style.css)
+10:40:26	Warning: 	Retry after error -4 (No data (connection closed)) at link https://miller.bslthemes.com/ashley-demo/img/faces/customers/3.jpg (from https://miller.bslthemes.com/ashley-demo/css/style.css)
+10:40:27	Warning: 	Retry after error -4 (No data (connection closed)) at link https://miller.bslthemes.com/ashley-demo/img/works/2/4.jpg (from https://miller.bslthemes.com/ashley-demo/project-2.html)
+
+HTTrack Website Copier/3.49-2 mirror complete in 44 seconds : 129 links scanned, 107 files written (30943272 bytes overall) [29861692 bytes received at 678674 bytes/sec], 1421898 bytes transferred using HTTP compression in 56 files, ratio 20%, 14.3 requests per connection
+(18 errors, 3 warnings, 0 messages)
