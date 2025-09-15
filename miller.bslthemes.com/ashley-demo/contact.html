@@ -501,7 +501,7 @@
 
     <script>
         document.getElementById('contactForm').addEventListener('submit', function(e) {
-            e.preventDefault(); // Відміняємо стандартну відправку форми
+            e.preventDefault();
 
             const formData = new FormData(this);
 
@@ -514,7 +514,7 @@
                     const responseDiv = document.getElementById('formResponse');
                     if (data.success) {
                         responseDiv.innerHTML = '<p style="color: green;">Message sent successfully!</p>';
-                        document.getElementById('contactForm').reset(); // Очистити форму
+                        document.getElementById('contactForm').reset();
                     } else {
                         responseDiv.innerHTML = `<p style="color: red;">Error: ${data.error}</p>`;
                     }
