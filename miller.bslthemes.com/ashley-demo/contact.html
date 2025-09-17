@@ -505,23 +505,28 @@
 
             const formData = new FormData(this);
 
-            fetch('send_email.json', {
-                    method: 'POST',
-                    body: formData
+            fetch('send_email.php', {
+                method: 'POST',
+                body: formData
                 })
-                .then(response => response.json())
-                .then(data => {
-                    const responseDiv = document.getElementById('formResponse');
-                    if (data.success) {
-                        responseDiv.innerHTML = '<p style="color: green;">Message sent successfully!</p>';
-                        document.getElementById('contactForm').reset();
-                    } else {
-                        responseDiv.innerHTML = `<p style="color: red;">Error: ${data.error}</p>`;
-                    }
-                })
-                .catch(error => {
-                    document.getElementById('formResponse').innerHTML = `<p style="color: red;">An unexpected error occurred: ${error.message}</p>`;
-                });
+            .then(response => response.text())
+            .then(text => {
+            console.log("RAW response from PHP:", text); // <-- check browser console
+                try {
+                    return JSON.parse(text);
+                } catch (err) {
+                    throw new Error("Not valid JSON: " + text);
+                }
+            })
+            .then(data => {
+                console.log("Parsed JSON:", data);
+                // ... same as before
+            })
+            .catch(error => {
+                document.getElementById('formResponse').innerHTML =
+                    `<p style="color: red;">Error: ${error.message}</p>`;
+            });
+
         });
 
     </script>
